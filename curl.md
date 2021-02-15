@@ -33,7 +33,7 @@ man curl
 
 <br>
 
-**Запрос страницы**
+## Запрос страницы
 
 При выполнении команды без аргументов бедет выполнен HTTP-запрос Get, который вернет статическое содержимое страницы
 
@@ -77,7 +77,7 @@ curl -u <user:password> https://devopsmops.com/api
 
 <br>
 
-**Загрузка файлов**
+## Загрузка файлов
 
 Скачать файл и сохранить без изменения имени
 
@@ -95,7 +95,7 @@ curl -o my_archive.tar.gz http://devopsmops.com/archive.tar.gz
 
 <br>
 
-**Передача и анализ заголовков**
+## Передача и анализ заголовков
 
 Получить заголовок без тела документа
 
@@ -105,7 +105,7 @@ curl -I http://devopsmops.com
 
 <br>
 
-**Отправка POST-запроса**
+## Отправка POST-запроса
 
 Отправить данные ключ-значение
 
@@ -123,7 +123,7 @@ curl -X 'PUT' -d '{"foo":"bar","bar":"foo"}' http://devopsmops.com
 
 <br>
 
-**Измерение продолжительности соединения**
+## Измерение продолжительности соединения
 
 Вы также можете использовть culr для диагностики неисправностей, например команада
 
@@ -135,7 +135,7 @@ curl -w "%{time_total}\n" -o /dev/null -s http://devopsmops.com
 
 <br>
 
-**Использование прокси**
+## Использование прокси
 
 ```
 curl -x proxy.my.local:3128 http://devopsmops.com
@@ -145,6 +145,6 @@ curl -x proxy.my.local:3128 http://devopsmops.com
 
 ---
 
-Еще больше информации на наших [Youtube](https://www.youtube.com/channel/UCqC3c7UHtwoX2wy7fdHc6gg) и [Telegram](https://t.me/devops_mops) каналах!
+Еще больше информации на наших [Youtube](https://www.youtube.com/channel/UCqC3c7UHtwoX2wy7fdHc6gg) и [Telegram](https://t.me/devops_mops) каналах
 
 Ваш Mops Devops!
